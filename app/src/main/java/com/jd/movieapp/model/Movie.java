@@ -10,6 +10,10 @@ import java.util.Comparator;
 import java.util.List;
 
 
+/**
+ * Classe dos Filmes
+ */
+
 public class Movie {
     @SerializedName("poster_path")
     private String posterPath;

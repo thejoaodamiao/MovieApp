@@ -7,7 +7,9 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-
+/**
+ * Classe de Resposta do filmes
+ */
 public class MoviesResponse {
     @SerializedName("page")
     private int page;

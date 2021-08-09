@@ -13,6 +13,10 @@ import com.bumptech.glide.Glide;
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 
+/**
+ * Classe da tela de detalhe
+ */
+
 public class DetailActivity extends AppCompatActivity {
     TextView nameOfMovie, plotSynopsis, userRating, releaseDate, originalLanguage, genres;
     ImageView imageView;

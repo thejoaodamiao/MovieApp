@@ -25,6 +25,10 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
+/**
+ * Classe Principal Main.
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
@@ -55,7 +59,10 @@ public class MainActivity extends AppCompatActivity {
 
         adapter = new PaginationAdapter(this);
 
-        // rv.setLayoutManager(new GridLayoutManager(this, 2));
+        /**
+         * testes de outros layouts
+         */
+        //rv.setLayoutManager(new GridLayoutManager(this, 2));
         //linearLayoutManager = new GridLayoutManager(this, 2);
 
         linearLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);

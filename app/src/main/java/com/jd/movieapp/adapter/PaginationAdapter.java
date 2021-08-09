@@ -28,6 +28,10 @@ import com.jd.movieapp.model.Movie;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Classe adpatador
+ */
+
 public class PaginationAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     private static final int ITEM = 0;
@@ -97,8 +101,7 @@ public class PaginationAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
 
 
                 /**
-                 * Using Glide to handle image loading.
-                 * Learn more about Glide here:
+                 * Usando Glide para carregar as imagens.
                  *
                  */
                 Glide
@@ -210,7 +213,7 @@ public class PaginationAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
     */
 
     /**
-     * Main list's content ViewHolder
+     * lista principal content ViewHolder
      */
     protected class MovieVH extends RecyclerView.ViewHolder {
         private TextView mMovieTitle;
