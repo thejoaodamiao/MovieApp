@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_margin">16dp</dimen>
+
+    <dimen name="paddingItemDecorationDefault">8dp</dimen>
+    <dimen name="paddingItemDecorationEdge">24dp</dimen>
+    <dimen name="activity_margin_content">24dp</dimen>
+    <dimen name="activity_margin_half">8dp</dimen>
+    <dimen name="poster_thumb_width">72dp</dimen>
+    <dimen name="poster_thumb_height">96dp</dimen>
+    <dimen name="activity_margin_quarter">4dp</dimen>
+    <dimen name="Activity_horizontal_margin">16dp</dimen>
+    <dimen name="Activity_vertical_margin">16dp</dimen>
+    <dimen name="movie_title_padding">10dp</dimen>
+    <dimen name="movie_title">10dp</dimen>
+    <dimen name="movie_cover_height">160dp</dimen>
+    <dimen name="card_movie_radius">0dp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="user_rating_padding_bottom">5dp</dimen>
+    <dimen name="user_rating">12dp</dimen>
+    <dimen name="detail_backdrop_height">500dp</dimen>
+    <dimen name="layout_margin_left">10dp</dimen>
+    <dimen name="layout_margin_top">3dp</dimen>
+    <dimen name="layout_margin_top2">10dp</dimen>
+    <dimen name="padding_layout">16dp</dimen>
+
+
+</resources>
